@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets-eu-01.kc-usercontent.com/77bbf83a-1306-0152-fea5-3b5eaf937634/3f607a5b-f54a-403d-a53c-6f7280786ab9/GettyImages-1441429474%20-cmp.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: #EAEAEA; 
+}
+
+.container {
+    position: relative; 
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(34, 49, 63, 0.9); 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1; 
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #2ECC71; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #1ABC9C; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #EAEAEA; 
+}
+
+.info {
+    margin-top: 30px;
+    font-size: 1.1em; 
+}
+
+footer {
+    margin-top: 50px;
+    color: #EAEAEA; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #27AE60; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219653; 
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluate Carbon Sinks</title>
+    <link rel="stylesheet" href="carbonsink.css"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Evaluate Carbon Sinks</h1>
+            <p>Select the appropriate carbon sinks to estimate their impact.</p>
+        </header>
+
+        <form id="carbonSinkForm">
+            <div class="sink-option">
+                <h3>Forestry Projects</h3>
+                <label for="forestryImpact">Estimated impact (tons CO2):</label>
+                <input type="number" id="forestryImpact" placeholder="Enter impact in tons">
+            </div>
+
+            <div class="sink-option">
+                <h3>Soil Carbon Sequestration</h3>
+                <label for="soilImpact">Estimated impact (tons CO2):</label>
+                <input type="number" id="soilImpact" placeholder="Enter impact in tons">
+            </div>
+
+            <div class="sink-option">
+                <h3>Wetland Restoration</h3>
+                <label for="wetlandImpact">Estimated impact (tons CO2):</label>
+                <input type="number" id="wetlandImpact" placeholder="Enter impact in tons">
+            </div>
+
+            <div class="sink-option">
+                <h3>Renewable Energy Projects</h3>
+                <label for="renewableImpact">Estimated impact (tons CO2):</label>
+                <input type="number" id="renewableImpact" placeholder="Enter impact in tons">
+            </div>
+
+            <button type="submit">Calculate Total Impact</button>
+        </form>
+    </div>
+
+    <script src="carbonSink.js"></script>
+</body>
+</html>

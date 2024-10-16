@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Emission Estimation</title>
+    <link rel="stylesheet" href="Emission.css"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emission Estimation</h1>
+            <p>Input data on various mining activities to estimate associated carbon emissions.</p>
+        </header>
+
+        <form id="emissionForm">
+            <div class="activity-section">
+                <h3>Excavation</h3>
+                <label for="excavationAmount">Amount of coal excavated (tons):</label>
+                <input type="number" id="excavationAmount" name="excavationAmount" placeholder="Enter amount in tons">
+            </div>
+
+            <div class="activity-section">
+                <h3>Transportation</h3>
+                <label for="transportDistance">Average transportation distance (km):</label>
+                <input type="number" id="transportDistance" name="transportDistance" placeholder="Enter distance in km">
+                
+                <label for="transportMethod">Transportation method:</label>
+                <select id="transportMethod" name="transportMethod">
+                    <option value="truck">Truck</option>
+                    <option value="train">Train</option>
+                    <option value="conveyor">Conveyor Belt</option>
+                </select>
+            </div>
+
+            <div class="activity-section">
+                <h3>Equipment Usage</h3>
+                <label for="equipmentHours">Total equipment operating hours:</label>
+                <input type="number" id="equipmentHours" name="equipmentHours" placeholder="Enter operating hours">
+
+                <label for="equipmentType">Primary equipment type:</label>
+                <select id="equipmentType" name="equipmentType">
+                    <option value="diesel">Diesel-powered</option>
+                    <option value="electric">Electric-powered</option>
+                </select>
+            </div>
+
+            <div class="activity-section">
+                <h3>Mine Type</h3>
+                <label for="mineType">Mine type:</label>
+                <select id="mineType" name="mineType">
+                    <option value="underground">Underground</option>
+                    <option value="surface">Surface</option>
+                </select>
+            </div>
+
+            <button type="submit">Calculate Emissions</button>
+        </form>
+    </div>
+
+    <script src="Emission.js"></script>
+</body>
+</html>
